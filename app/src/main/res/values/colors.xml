@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40C4FF</color>
+    <color name="colorPrimaryDark">#0091EA</color>
+    <color name="colorAccent">#EF6C00</color>
+    <color name="colorBotonBNV">#fff</color>
+
+    <!-- COLOR BOTONES 2 -->
+    <color name="colorPrimary2">#f45efc36</color>
+    <color name="colorPrimaryDark2">#13d209</color>
+    <color name="colorAccent2">#fde020</color>
+    <color name="colorBotonBNV2">#fff</color>
+
+    <!-- COLORES PRODUCTOS RECOMENDADOS -->
+    <color name="colorph7">#e9f5a328</color>
+    <color name="colorph6">#e9f5c928</color>
+    <color name="colorph5_5">#e9fca3e1</color>
+    <color name="colorph5">#e9f755cc</color>
+    <color name="colorph4">#e9fd8235</color>
+    <color name="colorph2">#e9ff3936</color>
+</resources>

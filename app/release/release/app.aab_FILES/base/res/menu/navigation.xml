@@ -1,0 +1,52 @@
+
+í
+9
+android*http://schemas.android.com/apk/res/android
+2
+app'http://schemas.android.com/apk/res-automenu*
+
+    8*À
+·item"€
+*http://schemas.android.com/apk/res/androidicon@drawable/ic_work_black_24dp"(‚€„2%
+#œødrawable/ic_work_black_24dp"m
+*http://schemas.android.com/apk/res/androidid@+id/home_navigation"(Ğ„2
+ç€ øid/home_navigation"=
+*http://schemas.android.com/apk/res/androidtitleKit(áƒ„*
+
+    6*×
+Îitem"’
+*http://schemas.android.com/apk/res/androidicon%@drawable/ic_content_paste_black_24dp"
+(‚€„2.
+,ô€œø$drawable/ic_content_paste_black_24dp"m
+*http://schemas.android.com/apk/res/androidid@+id/agua_navigation"
+(Ğ„2
+œ€ øid/agua_navigation"B
+*http://schemas.android.com/apk/res/androidtitleAnalisis(áƒ„
+*
+
+    ?*Í
+Äitem"~
+*http://schemas.android.com/apk/res/androidicon@drawable/ic_dns_black_24dp"(‚€„2$
+"õ€œødrawable/ic_dns_black_24dp"w
+*http://schemas.android.com/apk/res/androidid@+id/productos_navigation"(Ğ„2!
+” øid/productos_navigation"C
+*http://schemas.android.com/apk/res/androidtitle	Productos(áƒ„*
+
+    5*å
+Üitem"Œ
+*http://schemas.android.com/apk/res/androidicon"@drawable/ic_assignment_black_24dp"(‚€„2+
+)ó€œø!drawable/ic_assignment_black_24dp"}
+*http://schemas.android.com/apk/res/androidid@+id/verificacion_navigation"(Ğ„2$
+"„‚ øid/verificacion_navigation"F
+*http://schemas.android.com/apk/res/androidtitleVerificacion(áƒ„*
+
+    <*Ä
+»item"‚
+*http://schemas.android.com/apk/res/androidicon@drawable/ic_style_black_24dp"(‚€„2&
+$ÿ€œødrawable/ic_style_black_24dp"k
+*http://schemas.android.com/apk/res/androidid@+id/adf_navigation"(Ğ„2
+›€ øid/adf_navigation"A
+*http://schemas.android.com/apk/res/androidtitleFilagro(áƒ„*
+
+
+7

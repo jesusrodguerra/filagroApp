@@ -1,0 +1,20 @@
+
+É
+9
+android*http://schemas.android.com/apk/res/android
+2
+app'http://schemas.android.com/apk/res-auto+android.support.constraint.ConstraintLayout"a
+*http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"(õ„2:0ÿÿÿÿÿÿÿÿÿ"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ*
+
+    %*É
+À)com.github.chrisbanes.photoview.PhotoView"g
+*http://schemas.android.com/apk/res/androidid@+id/iv_phpremium"	(Ğ„2
+ô€ øid/iv_phpremium"a
+*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"	(õ„2:0şÿÿÿÿÿÿÿÿ"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"	(ô„2:0ÿÿÿÿÿÿÿÿÿ"e
+*http://schemas.android.com/apk/res/androidsrc@drawable/prod1"	(™‚„2
+“œødrawable/prod1	*
+
+
+'
