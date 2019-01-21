@@ -1,4 +1,4 @@
-package com.filagro.app.correctorph;
+package com.filagro.app.correctorph.FragmentsPrincipales;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,12 +17,19 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.filagro.app.correctorph.Facebook;
+import com.filagro.app.correctorph.Imagenphplus;
+import com.filagro.app.correctorph.Imagenphpremium;
+import com.filagro.app.correctorph.Instagram;
+import com.filagro.app.correctorph.R;
+import com.filagro.app.correctorph.Twitter;
+
 
 public class ADF_fragment extends Fragment {
 
     WebView view;
     View vista;
-    Button btn_twitter, btn_instagram, btn_facebook, btn_email;
+    Button btn_instagram, btn_facebook, btn_email, btn_twitter;
     ImageView imageview;
     ImageButton btn_phplus1, btn_phpremium2;
 
@@ -31,7 +38,7 @@ public class ADF_fragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         vista = inflater.inflate(R.layout.fragment_adf, container, false);
-        btn_twitter = (Button) vista.findViewById(R.id.btn_twitter);
+        btn_twitter = vista.findViewById(R.id.btn_twitter);
         btn_instagram = (Button) vista.findViewById(R.id.btn_instagram);
         btn_facebook = (Button) vista.findViewById(R.id.btn_facebook);
         btn_email = (Button) vista.findViewById(R.id.btn_email);

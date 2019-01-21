@@ -30,37 +30,53 @@
 
     <!-- VERIFICACIONES-->
     <string name="tv_verificaciones">Verificaciones con kit de campo</string>
-    <string name="tvph7">El color del agua es (color de fondo) por la presencia de bicarbonatos, al agregar el indicador 2 y titular con 4 gotas, del reactivo 1 (4 gotas es igual a 0,4 x 4: 1.6 mmolc/L bicarbonatos que equivale a pH 7.0)</string>
-    <string name="tvph6">El color del agua es (color de fondo), por la presencia de bicarbonatos, al agregar el indicador 2 y titular con 2 gotas, del reactivo 1 (2 gotas es igual a 0,2 x 4: 0,8 milimolc/L bicarbonatos que equivale a pH 6,0).</string>
-    <string name="tvph5_5">El color del agua es (color de fondo), por la presencia de bicarbonatos, al agregar el indicador 2 y titular con 1 gota, del reactivo 1 (1 gota es igual a 0,1 x 4: 0,4 milimolc/L  bicarbonatos que equivale a pH 5,5).</string>
-    <string name="tvph5">El color del agua es (color de fondo) al agregar el indicador 2 y no necesita agregar reactivo 1.</string>
-    <string name="tvph4">El color del agua es (color de fondo) al agregar el indicador 2 y no necesita agregar reactivo 1</string>
-    <string name="tvph2">El color del agua es(color de fondo) al agregar el indicador 2 y no necesita agregar reactivo 1.</string>
-    <string name="tv_aph7">pH 7.0 al agregar 4 gotas de reactivo:</string>
-    <string name="tv_aph6">pH 6.0 al agregar 2 gotas de reactivo:</string>
-    <string name="tv_aph5_5">pH 5.5 al agregar 1 gota de reactivo:</string>
-    <string name="tv_aph5">pH 5.0 al agregar 0 gotas de reactivo:</string>
-    <string name="tv_aph4">pH 4.0 al agregar 0 gotas de reactivo:</string>
-    <string name="tv_aph2">pH 2.0 al agregar 0 gotas de reactivo:</string>
+    <string name="tvph7">Agregue a la muestra, del agua corregida, la gota del indicador para BICARBONATOS y obtendría el color del recuadro lateral. Agregue 4 gotas del reactivo 1 y deberá obtener el cambio de color.</string>
+    <string name="tvph6">Agregue a la muestra, del agua corregida, la gota del indicador para BICARBONATOS y obtendría el color del recuadro lateral. Agregue 2 gotas del reactivo 1 y deberá obtener el cambio de color.</string>
+    <string name="tvph5_5">Agregue a la muestra, del agua corregida, la gota del indicador para BICARBONATOS y obtendría el color del recuadro lateral. Agregue 1 gotas del reactivo 1 y deberá obtener el cambio de color.</string>
+    <string name="tvph5">Agregue a la muestra, del agua corregida, la gota del indicador para BICARBONATOS y obtendría el color del recuadro lateral, o sea, de una vez, se obtiene el color rosado, indicativo de ausencia de BICARBONATOS.</string>
+    <string name="tvph4">Agregue a la muestra, del agua corregida, la gota del indicador para BICARBONATOS y obtendría el color del recuadro lateral, o sea, de una vez, se obtiene el color rojo, indicativo de ausencia de BICARBONATOS.</string>
+    <string name="tvph2">Agregue a la muestra, del agua corregida, la gota del indicador para BICARBONATOS y obtendría el color del recuadro lateral, o sea, de una vez, se obtiene el color rojo intenso, indicativo de ausencia de BICARBONATOS.</string>
+    <string name="tv_aph7">pH 7.0</string>
+    <string name="tv_aph6">pH 6.0</string>
+    <string name="tv_aph5_5">pH 5.5</string>
+    <string name="tv_aph5">pH 5.0</string>
+    <string name="tv_aph4">pH 4.0</string>
+    <string name="tv_aph2">pH 2.0</string>
+    <string name="tv_instrucciones">Las verificaciones con Kit de campo, consiste, como tal, verificar que, con la cantidad de ácido calculada y aplicada, se obtuvo el pH deseado, en el agua corregida.</string>
+    <string name="tv_instrucciones2">Asi que para cada pH, se indica, las gotas de reactivo 1, a aplicar:</string>
 
     <!-- PRODUCTOS RECOMENDADOS-->
     <string name="tv_productos">Productos Recomendados</string>
     <string name="btn_productos">Ver referencias</string>
     <string name="tv_productosph7">Productos a pH 7.0</string>
-    <string name="tv_descripcionph7">FUNGICIDAS: Carbendazin (DEROSAL; CROPZIM) (pH 5-7); Mancozeb; Azoxystrobin (AMISTAR) (pH no afecta). INSECTICIDAS: Triflumuron (Alsystin) (pH 5-7); Deltametrina (DECIS) pH 5-7).  </string>
+
+    <string-array name="productosph7">
+        <item>FUNGICIDAS: Carbendazin (DEROSAL; CROPZIM) (pH 5-7); Mancozeb; Azoxystrobin (AMISTAR) (pH no afecta).</item>
+        <item>INSECTICIDAS: Triflumuron (Alsystin) (pH 5-7); Deltametrina (DECIS) pH 5-7).</item>
+    </string-array>
+
+    <string name="tv_descripcionph7">FUNGICIDAS: Carbendazin (DEROSAL; CROPZIM) (pH 5-7); Mancozeb; Azoxystrobin (AMISTAR) (pH no afecta).</string>
     <string name="tv_descripcionph7_2"> INSECTICIDAS: Triflumuron (Alsystin) (pH 5-7); Deltametrina (DECIS) pH 5-7)</string>
+
     <string name="tv_productosph6">Productos a pH 6.0</string>
-    <string name="tv_descripcionph6">FUNGICIDAS: KASUMIN. FERTILIZANTES: Aplicar HUMUS HÚMICO al suelo. Insecticidas: i.a Friponil (Fripokill) y i.a. Metomilo (Mercamil) estables  pH 5,0 a 7,0; i.a. Lambda-cyhalotrina  (KARATE 500ml/ha). Insecticidas biológicos: Bacillus Thuringuiensis: Bt-Ven.</string>
-    <string name="tv_descripcionph6_2">FERTILIZANTES: Aplicar HUMUS HÚMICO al suelo. </string>
-    <string name="tv_descripcionph6_3">Insecticidas: i.a Friponil (Fripokill) y i.a. Metomilo (Mercamil) estables  pH 5,0 a 7,0; i.a. Lambda-cyhalotrina  (KARATE 500ml/ha);</string>
-    <string name="tv_descripcionph6_4">Insecticidas biológicos: Bacillus Thuringuiensis: Bt-Ven.</string>
+    <string-array name="productosph6">
+        <item>FUNGICIDAS: Kasumin.</item>
+        <item>FERTILIZANTES: Aplicar Humus Humico al suelo.</item>
+        <item>INSECTICIDAS: i.a Friponil (Fripokill) y i.a. Metomilo (Mercamil) estables  pH 5,0 a 7,0; i.a. Lambda-cyhalotrina (KARATE 500ml/ha).</item>
+        <item>INSECTICIDAS BIOLOGICOS: Bacillus Thuringuiensis (Bt-Ven).</item>
+    </string-array>
+
+    <string name="tv_descripcionph6">FUNGICIDAS: Kasumin.</string>
+    <string name="tv_descripcionph6_2">FERTILIZANTES: Aplicar Humus Humico al suelo. </string>
+    <string name="tv_descripcionph6_3">INSECTICIDAS: i.a Friponil (Fripokill) y i.a. Metomilo (Mercamil) estables  pH 5,0 a 7,0; i.a. Lambda-cyhalotrina (KARATE 500ml/ha).</string>
+    <string name="tv_descripcionph6_4">INSECTICIDAS BIOLOGICOS: Bacillus Thuringuiensis (Bt-Ven).</string>
     <string name="tv_productosph5_5">Productos a pH 5.5</string>
-    <string name="tv_descripcionph5_5">Agua para riego y/o Abono foliar:  NITRO CaMgBMo, FERTIVERDOR. Herbicidas i.a. Atrazina (Gesaprim, Atranex, Triazol);CELTIC 25 S (i.a. Quinclorac pHs.i.; i.a. Picloran+2,4,D (COMBATRAN). FUNGICIDAS: i.a. Clomazone (Command 4,pH 5,0a9,0); (ACCENT) i.a Nicosulfuron (estable a pH 7,0 a 9,0, pero, aún a 5,0, DT50, 15 días). Quimico:i.a. Metalaxil (Ridomil); Combinado con fertilizante foliar: Carbendazin (DEROSAL; CROPZIM) (pH 5-7) Propiconazole (Tilt) (pH 5-6).</string>
-    <string name="tv_descripcionph5_5_2">Herbicidas i.a. Atrazina (Gesaprim, Atranex, Triazol);CELTIC 25 S (i.a. Quinclorac pHs.i.; i.a. Picloran+2,4,D (COMBATRAN).</string>
+    <string name="tv_descripcionph5_5">Agua para riego y/o Abono foliar:  NITRO CaMgBMo, Fertiverbor.</string>
+    <string name="tv_descripcionph5_5_2">HERBICIDAS i.a. Atrazina (Gesaprim, Atranex, Triazol);Celtic 25 S (i.a. Quinclorac pHs.i.; i.a. Picloran+2,4,D (Combatran).</string>
     <string name="tv_descripcionph5_5_3">FUNGICIDAS: i.a. Clomazone (Command 4,pH 5,0a9,0); (ACCENT) i.a Nicosulfuron (estable a pH 7,0 a 9,0, pero, aún a 5,0, DT50, 15 días). </string>
-    <string name="tv_descripcionph5_5_4">Quimico:i.a. Metalaxil (Ridomil); Combinado con fertilizante foliar: Carbendazin (DEROSAL; CROPZIM) (pH 5-7) Propiconazole (Tilt) (pH 5-6).</string>
+    <string name="tv_descripcionph5_5_4">QUIMICO:i.a. Metalaxil (Ridomil); Combinado con fertilizante foliar: Carbendazin (Derosal; Cropzim) (pH 5-7) Propiconazole (Tilt) (pH 5-6).</string>
     <string name="tv_productosph5">Productos a pH 5.0</string>
-    <string name="tv_descripcionph5">FUNGICIDAS; i.a. Mancozeb (Dthane, manzate) i.a. Captan (Captan) i.a.Benomil (Benlate) i.a. Mancozeb+cimozanil (Curazim). INSECTICIDAS: i.a. Amitraz (Mitac); i,a, Clorpirifos (Pirinex, Lorsban 4E): i.a.Dimetoato (Difós 40ce). HERBICIDAS:  i.a. Fluazifop-p-butil (H1 2000; 500 ml/ha 3 hojas; 1,0 l/ha + 3 hojas) exige pH 5,0. i.a. Paraquat (Gramoxone,Gramafin, Gramaquat) i.a. Oxifluorfen (GOAL). HUMUS FULVICOS FOLIARES: Propanil+2,4D+ Pendimethalin (Prowl, Garra) (estables 5,0 a 9,0) Pendimethalin (Prowl 4,0 l/ha) (estables 5,0 a 9,0).</string>
+    <string name="tv_descripcionph5">FUNGICIDAS; i.a. Mancozeb (Dthane, manzate) i.a. Captan (Captan) i.a.Benomil (Benlate) i.a. Mancozeb+cimozanil (Curazim).</string>
     <string name="tv_descripcionph5_2">INSECTICIDAS: i.a. Amitraz (Mitac); i,a, Clorpirifos (Pirinex, Lorsban 4E): i.a.Dimetoato (Difós 40ce).</string>
     <string name="tv_descripcionph5_3">HERBICIDAS:  i.a. Fluazifop-p-butil (H1 2000; 500 ml/ha 3 hojas; 1,0 l/ha + 3 hojas) exige pH 5,0. i.a. Paraquat (Gramoxone,Gramafin, Gramaquat) i.a. Oxifluorfen (GOAL).</string>
     <string name="tv_descripcionph5_4">HUMUS FULVICOS FOLIARES: Propanil+2,4D+ Pendimethalin (Prowl, Garra) (estables 5,0 a 9,0) Pendimethalin (Prowl 4,0 l/ha) (estables 5,0 a 9,0). </string>
@@ -68,6 +84,8 @@
     <string name="tv_descripcionph4"> HERBICIDAS: i.a. Glifosate (GLYFOSAN, ROUNDUP, TOUCHDOWN). i.a. Metribuzin (SENCOR)</string>
     <string name="tv_ph2">pH 2.0 se recomienda para:</string>
     <string name="tv_descripcionph2">Limpiar las cintas de riego. Las cintas de riego deberian mantenerse limpias mas tiempo si aplica el agua de riego a pH 5.5. Tenga siempre la precaucion de no dejar incrustar las cintas, para someterla a la limpieza de altas concentraciones de acido, por los motivos que pueden causar desequilibrios en la solucion del suelo.</string>
+    <string name="tv_vacio"></string>
+
 
     <!-- ACERCA DE FILAGRO-->
     <string name="tv_descripcionfilagro">Empresa dedicada al desarrollo y comercialización de insumos y servicios Agrícolas.</string>

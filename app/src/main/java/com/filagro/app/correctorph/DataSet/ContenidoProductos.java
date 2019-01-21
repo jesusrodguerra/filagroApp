@@ -1,12 +1,16 @@
-package com.filagro.app.correctorph;
+package com.filagro.app.correctorph.DataSet;
+
+import java.sql.Array;
+import java.util.ArrayList;
 
 public class ContenidoProductos {
 
     private int productos;
     private String titulo;
 
-    public ContenidoProductos(int productos, String titulo){
-        this.productos = productos;
+
+    public ContenidoProductos(int jproductos, String titulo){
+        this.productos = jproductos;
         this.titulo = titulo;
 
     }

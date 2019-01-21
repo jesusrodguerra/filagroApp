@@ -1,17 +1,18 @@
-package com.filagro.app.correctorph;
+package com.filagro.app.correctorph.FragmentsPrincipales;
 
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
+import com.filagro.app.correctorph.R;
+import com.filagro.app.correctorph.DataSet.contenido_verificacion;
+
 import java.util.List;
 
 
@@ -35,6 +36,7 @@ public class Verificacion extends Fragment {
 
         vista = inflater.inflate(R.layout.fragment_verificacion,container, false);
 
+        /**
         contenido = this.getAllname();
 
         mrecycler = vista.findViewById(R.id.recyclerverificacion);
@@ -50,17 +52,20 @@ public class Verificacion extends Fragment {
         mrecycler.setLayoutManager(mlayoutManager);
         mrecycler.setAdapter(mAdapter);
 
+         */
         return vista;
     }
 
+    /**
     private List<contenido_verificacion>getAllname(){
         return new ArrayList<contenido_verificacion>(){{
-            add(new contenido_verificacion(R.string.tvph7, "pH 7.0 al agregar 4 gotas de reactivo:", R.color.colorph7));
-            add(new contenido_verificacion(R.string.tvph6, "pH 6.0 al agregar 2 gotas de reactivo:", R.color.colorph6));
-            add(new contenido_verificacion(R.string.tvph5_5, "pH 5.5 al agregar 1 gota de reactivo:", R.color.colorph5_5));
-            add(new contenido_verificacion(R.string.tvph5, "pH 5.0 al agregar 0 gotas de reactivo:", R.color.colorph5));
-            add(new contenido_verificacion(R.string.tvph4, "pH 4.0 al agregar 0 gotas de reactivo:", R.color.colorph4));
-            add(new contenido_verificacion(R.string.tvph2, "pH 2.0 al agregar 0 gotas de reactivo:", R.color.colorph2));
+            add(new contenido_verificacion(R.string.tvph7, "pH 7.0", R.color.colorph7));
+            add(new contenido_verificacion(R.string.tvph6, "pH 6.0", R.color.colorph6));
+            add(new contenido_verificacion(R.string.tvph5_5, "pH 5.5", R.color.colorph5_5));
+            add(new contenido_verificacion(R.string.tvph5, "pH 5.0", R.color.colorph5));
+            add(new contenido_verificacion(R.string.tvph4, "pH 4.0", R.color.colorph4));
+            add(new contenido_verificacion(R.string.tvph2, "pH 2.0", R.color.colorph2));
         }};
     }
+     */
 }

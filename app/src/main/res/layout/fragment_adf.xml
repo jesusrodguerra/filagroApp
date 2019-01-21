@@ -292,23 +292,25 @@
                     <Button
                         android:id="@+id/btn_twitter"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:drawableTop="@drawable/ic_twitter"
-                        android:background="@color/colorPrimaryDark"
+                        android:backgroundTint="@color/colorPrimaryDark"
                         android:text="@string/txt_twitter"
+                        android:layout_marginEnd="10dp"
                         android:textColor="#fff"
-                        android:layout_marginRight="10dp"
-                        android:focusable="true"/>
+                        android:focusable="true"
+                        android:textAllCaps="false"/>
 
                     <Button
                         android:id="@+id/btn_instagram"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:drawableTop="@drawable/ic_instagram_mdpi"
-                        android:background="@color/colorPrimaryDark"
+                        android:backgroundTint="@color/colorPrimaryDark"
                         android:text="@string/txt_instagram"
                         android:textColor="#fff"
-                        android:focusable="true"/>
+                        android:focusable="true"
+                        android:textAllCaps="false"/>
 
                 </LinearLayout>
 
@@ -324,25 +326,24 @@
                     <Button
                         android:id="@+id/btn_facebook"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:drawableTop="@drawable/ic_facebook_box_mdpi"
-                        android:background="@color/colorPrimaryDark"
+                        android:backgroundTint="@color/colorPrimaryDark"
                         android:text="@string/txt_facebook"
                         android:textColor="#fff"
-                        android:layout_marginRight="10dp"
-                        android:focusable="true"/>
+                        android:layout_marginEnd="10dp"
+                        android:focusable="true"
+                        android:textAllCaps="false"/>
 
                     <Button
                         android:id="@+id/btn_email"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorPrimaryDark"
                         android:drawableTop="@drawable/ic_email_outline_mdpi"
-                        android:background="@color/colorPrimaryDark"
                         android:text="@string/txt_email"
-                        android:textColor="#fff"
-                        android:focusable="true"
-                        android:clickable="true"/>
-
+                        android:textAllCaps="false"
+                        android:textColor="#fff"/>
                 </LinearLayout>
 
             </LinearLayout>

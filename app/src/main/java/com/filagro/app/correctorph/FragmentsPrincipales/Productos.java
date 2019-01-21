@@ -1,4 +1,4 @@
-package com.filagro.app.correctorph;
+package com.filagro.app.correctorph.FragmentsPrincipales;
 
 
 import android.content.Intent;
@@ -6,14 +6,16 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import java.util.ArrayList;
+import com.filagro.app.correctorph.DataSet.ContenidoProductos;
+import com.filagro.app.correctorph.R;
+import com.filagro.app.correctorph.activityprueba;
+
 import java.util.List;
 
 
@@ -35,7 +37,7 @@ public class Productos extends Fragment {
 
         vista = inflater.inflate(R.layout.fragment_productos, container, false);
 
-
+        /**
         contenido = this.getAllnames();
 
         mrecycler = vista.findViewById(R.id.recyclerproductos);
@@ -48,6 +50,8 @@ public class Productos extends Fragment {
             }
         });
 
+         */
+
         btn_vw = vista.findViewById(R.id.btn_vistaweb);
         btn_vw.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,13 +61,18 @@ public class Productos extends Fragment {
             }
         });
 
+        /**
+
         mrecycler.setLayoutManager(mlayoutManager);
         mrecycler.setAdapter(mAdapter);
+
+         */
 
         return vista;
 
     }
 
+    /**
     private List<ContenidoProductos>getAllnames(){
         return new ArrayList<ContenidoProductos>(){{
             add(new ContenidoProductos(R.string.tv_descripcionph7, "Productos a ph 7.0"));
@@ -74,4 +83,5 @@ public class Productos extends Fragment {
             add(new ContenidoProductos(R.string.tv_descripcionph2, "pH 2.0 se recomienda para:"));
         }};
     }
+     */
 }

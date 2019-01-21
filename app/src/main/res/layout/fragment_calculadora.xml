@@ -8,7 +8,7 @@
     android:paddingRight="10dp"
     android:paddingBottom="5dp"
     android:paddingTop="5dp"
-    tools:context=".Calculadora">
+    tools:context=".FragmentsPrincipales.Calculadora">
 
     <ScrollView
         android:layout_width="match_parent"

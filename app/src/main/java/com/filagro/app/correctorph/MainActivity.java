@@ -5,7 +5,14 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.filagro.app.correctorph.FragmentsPrincipales.ADF_fragment;
+import com.filagro.app.correctorph.FragmentsPrincipales.BlankFragment;
+import com.filagro.app.correctorph.FragmentsPrincipales.Calculadora;
+import com.filagro.app.correctorph.FragmentsPrincipales.Productos;
+import com.filagro.app.correctorph.FragmentsPrincipales.Verificacion;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,13 +23,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
             getSupportActionBar().setDisplayShowHomeEnabled(true);
             getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
             BottomNavigationView bnv = findViewById(R.id.navigationView);
             bnv.setOnNavigationItemSelectedListener(navListener);
 
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Calculadora()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Inicio()).commit();
+
 
         }
 
@@ -32,25 +42,23 @@ public class MainActivity extends AppCompatActivity {
                 Fragment selectedfragment = null;
 
                 switch (menuItem.getItemId()){
+
+                    case R.id.adf_navigation:
+                        selectedfragment = new ADF_fragment();
+                        break;
+
                     case R.id.home_navigation:
-                        selectedfragment = new Calculadora();
+                        selectedfragment = new Inicio();
                         break;
 
                     case R.id.verificacion_navigation:
                         selectedfragment = new Verificacion();
                         break;
 
-                    case R.id.adf_navigation:
-                        selectedfragment = new ADF_fragment();
-                        break;
-
                     case R.id.productos_navigation:
                         selectedfragment = new Productos();
                         break;
 
-                    case R.id.agua_navigation:
-                        selectedfragment = new BlankFragment();
-                        break;
                 }
 
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedfragment).commit();

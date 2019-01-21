@@ -2,15 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/home_navigation"
-        android:title="Kit"
-        android:icon="@drawable/ic_work_black_24dp" />
 
     <item
-        android:id="@+id/agua_navigation"
-        android:title="Analisis"
+        android:id="@+id/home_navigation"
+        android:title="Calculos"
         android:icon="@drawable/ic_content_paste_black_24dp" />
+
 
     <item
         android:id="@+id/productos_navigation"

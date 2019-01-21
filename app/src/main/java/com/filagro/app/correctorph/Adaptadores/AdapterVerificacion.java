@@ -1,31 +1,35 @@
-package com.filagro.app.correctorph;
+package com.filagro.app.correctorph.Adaptadores;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.filagro.app.correctorph.R;
+import com.filagro.app.correctorph.DataSet.contenido_verificacion;
 
 import java.util.List;
 
-public class AdapterProductos extends RecyclerView.Adapter<AdapterProductos.ViewHolder> {
+public class AdapterVerificacion extends RecyclerView.Adapter<AdapterVerificacion.ViewHolder> {
 
-    private List<ContenidoProductos> contenido;
+    private List<contenido_verificacion> contenido;
     private int layout;
     private OnItemClickListener itemClickListener;
 
-    public AdapterProductos(List<ContenidoProductos> names, int layout, OnItemClickListener listener){
+    public AdapterVerificacion(List<contenido_verificacion> names, int layout, OnItemClickListener listener){
 
         this.contenido = names;
         this.layout = layout;
         this.itemClickListener = listener;
-
     }
+
 
     @NonNull
     @Override
-    public AdapterProductos.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+    public AdapterVerificacion.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
 
         View vista = LayoutInflater.from(viewGroup.getContext()).inflate(layout, viewGroup, false);
         ViewHolder vh = new ViewHolder(vista);
@@ -34,10 +38,9 @@ public class AdapterProductos extends RecyclerView.Adapter<AdapterProductos.View
     }
 
     @Override
-    public void onBindViewHolder(@NonNull AdapterProductos.ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull AdapterVerificacion.ViewHolder viewHolder, int i) {
 
         viewHolder.bind(contenido.get(i), itemClickListener);
-
     }
 
     @Override
@@ -48,19 +51,22 @@ public class AdapterProductos extends RecyclerView.Adapter<AdapterProductos.View
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvtitulo;
-        private TextView tvproductos;
+        private TextView tvcontenido;
+        private ImageView tvcolor;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tvtitulo = itemView.findViewById(R.id.tv_titulo);
-            tvproductos = itemView.findViewById(R.id.tv_contenido);
+            tvtitulo = itemView.findViewById(R.id.tv_titulo_verificacion);
+            tvcontenido = itemView.findViewById(R.id.tv_contenido_verificacion);
+            tvcolor = itemView.findViewById(R.id.tv_color_verificacion);
         }
 
-        public void bind(final ContenidoProductos contenido, final OnItemClickListener listener){
+        public void bind(final contenido_verificacion contenido, final OnItemClickListener listener){
 
             tvtitulo.setText(contenido.getTitulo());
-            tvproductos.setText(contenido.getProductos());
+            tvcontenido.setText(contenido.getVerificacion());
+            tvcolor.setImageResource(contenido.getColor());
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -68,11 +74,10 @@ public class AdapterProductos extends RecyclerView.Adapter<AdapterProductos.View
                     listener.onItemClick(contenido, getAdapterPosition());
                 }
             });
-
         }
     }
 
-    public interface OnItemClickListener {
-        void onItemClick(ContenidoProductos contenido, int position);
+    public interface OnItemClickListener{
+        void onItemClick(contenido_verificacion contenido, int position);
     }
 }

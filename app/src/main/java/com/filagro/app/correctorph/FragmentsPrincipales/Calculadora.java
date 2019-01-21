@@ -1,4 +1,4 @@
-package com.filagro.app.correctorph;
+package com.filagro.app.correctorph.FragmentsPrincipales;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,6 +17,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.filagro.app.correctorph.R;
 import com.filagro.app.correctorph.utils.PH;
 
 
