@@ -47,6 +47,9 @@ public class BlankFragment extends Fragment {
         double resultado20 = ValoresPositivos(PH.LimitarDecimales(PH.CalcularpHAgua(et1, et2, ph, 20)));
         tv20.setText(PH.ImprimirResultado(resultado20, "20"));
 
+        double resultadolitro = ValoresPositivos(PH.LimitarDecimales(PH.CalcularpHAgua(et1, et2, ph, 1)));
+        tvlitro.setText(PH.ImprimirResultado(resultadolitro, "1"));
+
         double resultadommol = ValoresPositivos(PH.CalcularMilimolAgua(et1, et2, ph));
         tvmmol.setText(PH.LimitarDecimales(resultadommol) + " mmol/L de nitrógeno");
 
@@ -245,7 +248,7 @@ public class BlankFragment extends Fragment {
 
                     btn2.setPressed(true);
 
-                    double resultado600 = PH.LimitarDecimales(PH.CalcularPh(et1Valor, et2Valor, 1000, PH2));
+                    double resultado600 = PH.LimitarDecimales(PH.CalcularpHAgua(et1Valor, et2Valor, PH2, 1000));
                     tv600.setText(PH.LimitarDecimales(resultado600) + " mililitros de pHplus o PREMIUM 4/5 por cada 1000 litros de agua");
                     tv400.setText("");
                     tv200.setText("");
